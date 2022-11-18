@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #747474;
+    max-width: 800px;
+    margin:auto;
+}
+
+a{
+    color:#ababab;
+    text-decoration: none;
+
+}
+
+.active{
+    color:#00b39b ;
+}
+.docplanner-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px solid red;
+}
+.introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+ .introduction-logo{
+    width: 50px;
+    height: 50px;
+    
+ }
+ .introduction-text
+ {
+    display: flex;
+ }
+ .introduction-paragraph
+ {
+    margin: 10px;
+ }
+ .services
+ {
+    display: flex;
+ }
+ .service-card
+ {
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    margin: 10px;
+    position: relative;
+    flex-grow: 1;
+    height:200px;
+
+ }
+ .service-card-patients
+ {
+     background-color: #00b39b;
+ }
+ .service-card-doctors
+ {
+    background-color: #3d83df;
+ }
+ .service-card-select{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+ }
+ .service-card-image{
+    width: 100px;
+    height: 100px;
+    position:absolute;
+ }
